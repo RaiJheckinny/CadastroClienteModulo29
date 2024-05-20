@@ -6,11 +6,10 @@ import static org.junit.Assert.assertTrue;
 
 import main.br.com.rpires.dao.ClienteDAO;
 import main.br.com.rpires.dao.IClienteDAO;
+import main.br.com.rpires.domain.Cliente;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import br.com.rpires.domain.Cliente;
 
 import java.util.List;
 
@@ -98,4 +97,11 @@ public class ClienteTest {
 		Assert.assertNull(dao.buscarTodos());
 	}
 
+	public static class ProdutoTest {
+
+		public void cadastrarTest(){
+
+		}
+
+	}
 }

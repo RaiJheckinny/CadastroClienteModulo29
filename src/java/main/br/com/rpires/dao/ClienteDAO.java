@@ -4,11 +4,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
-import br.com.rpires.domain.Cliente;
 import main.br.com.rpires.dao.jdbc.ConnectionFactory;
+import main.br.com.rpires.domain.Cliente;
 
 public class ClienteDAO implements IClienteDAO {
 	@Override

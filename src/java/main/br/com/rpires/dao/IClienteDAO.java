@@ -1,7 +1,7 @@
 package main.br.com.rpires.dao; /**
  * 
  */
-import br.com.rpires.domain.Cliente;
+import main.br.com.rpires.domain.Cliente;
 
 import java.util.List;
 

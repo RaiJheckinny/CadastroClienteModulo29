@@ -1,7 +1,7 @@
-/**
+package main.br.com.rpires.domain; /**
  * 
  */
-package br.com.rpires.domain;
+
 
 /**
  * @author rodrigo.pires
